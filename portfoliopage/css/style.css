@@ -1,0 +1,225 @@
+/*******************GENERAL*******************/
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+html {
+  width: 100%;
+  display: flex;
+}
+
+/*******************NAVIGATION*******************/
+
+#main-nav {
+  background-color: #666;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin: 10px 25px;
+
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-family: 'Carter One', cursive;
+}
+
+nav a:hover {
+  color: #999;
+}
+
+/*******************MAIN BANNER*******************/
+
+#main-banner {
+  display: flex;
+  position: relative;
+  top: 70px;
+  justify-content: center;
+  height: 625px;
+  width: 100%;
+  background: blue;
+  background: url('../img/puzzle.jpg');
+  background-repeat: no-repeat;
+  background-attachment: center;
+  background-size: cover;
+
+}
+
+#main-banner img {
+  max-width: 100%;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+  margin-top: 120px;
+  transform: rotate(-90deg);
+
+
+
+}
+
+#main-banner h1 {
+  margin: 0 200px;
+  margin-top: 250px;
+  font-size: 3em;
+  left: 25px;
+  position: relative;
+  color: black;
+  font-family: 'Carter One', cursive;
+  text-decoration: underline;
+}
+
+
+
+/*******************PORTFOLIO*******************/
+
+#main-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+#main-portfolio img {
+  margin: 10px 10px;
+  padding: 5px;
+  max-width: 75%;
+  border: 1px solid #D9E4EA;
+  border-radius: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+
+#main-portfolio p {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  margin-right: 40px;
+  color: black;
+  font-family: 'Carter One', cursive;
+
+}
+
+
+/*******************ABOUT/CONTACT*******************/
+
+.container {
+  border-top: 1px solid silver;
+}
+
+
+#about {
+  
+  width: 40%;
+  float: left;
+  height: 250px;
+  margin-left: 20px;
+  font-family: 'Carter One', cursive;
+  text-align: center;
+}
+
+#about p {
+  
+  font-family: 'Carter One', cursive;
+  color: black;
+  text-align: center;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+
+#contact {
+  
+  width: 40%;
+  float: right;
+  height: 250px;
+  margin-right: 20px;
+  font-family: 'Carter One', cursive;
+   line-height: 20px;
+  letter-spacing: 1px;
+}
+
+#contact li {
+  color: black;
+  font-family: 'Carter One', cursive;
+
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+/******************* MORE GENERAL*******************/
+
+#footer {
+  background-color: #666;
+  clear: both;
+  height: 60px;
+  justify-content: center;
+  display: flex;
+}
+
+#footer p {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Carter One', cursive;
+}
+
+
+/******************* MEDIA QUIERIES*******************/
+@media (max-width: 1150px) {
+
+  html {
+    max-width: 100%;
+  }
+
+  #main-banner h1 {
+    font-size: 2em;
+
+  }
+
+  #main-banner img {
+    height: 250px;
+    width: 250px;
+  }
+
+@media (max-width: 1050px) {
+  body {
+  background-color: blue;
+}
+  
+   html {
+    max-width: 100%;
+  }
+
+}
+
+  
