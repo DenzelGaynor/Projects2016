@@ -1,0 +1,99 @@
+.header {
+	background-image: url(../images/background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+	margin-bottom: 0;
+	font-family: 'Josefin Slab', serif;
+}
+
+.header h1 {
+	font-family: 'Amethysta', serif;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-size: 4em;
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+}
+
+.header p {
+	margin-top: 35px;
+
+}
+
+.navbar li{
+	font-size: 1.2em;
+
+
+}
+
+#services{
+	background-image: url(../images/passit.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 450px;
+
+}
+
+
+#portfolio {
+	font-family: 'Josefin Slab', cursive;
+	font-size: 3.5em;
+	margin-bottom: 25px;
+	text-decoration: underline;
+}
+
+.portfolio {
+	
+	background-image: url(../images/about.jpeg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+
+}
+
+.carousel-caption {
+	font-family: 'Josefin Slab', serif;
+}
+
+.group-3 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.25em;
+	text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+	font-weight: 900;
+	
+}
+
+@media screen and (max-width: 1100px) {
+   #services {
+   	height: 700px;
+   }
+
+}
+
+@media screen and (max-width: 450px) {
+   #services {
+   	height: 720px;
+   }
+
+   .header h1 {
+   	font-size: 2.5em;
+   }
+
+   .header p {
+   	font-size: 1.5em;
+   }
+
+   #portfolio {
+   	font-size: 1.85em;
+   }
+
+}
+
+@media screen and (max-width: 400px) {
+   #services {
+   	height: 850px;
+   }
+}
