@@ -1,0 +1,151 @@
+
+/*IMPORTANT*/
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+  background: #DCD;
+}
+
+/*GENERAL*/
+
+body {
+  width: 100%;
+}
+
+h1, h2, h3 {
+  font-family: noto sans;
+}
+
+h1 {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+/*HEADER*/
+
+header {
+  text-align: center;
+  font-size: 30px;
+  background-color: dimgrey;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+/*NAVIGATION*/
+
+nav {
+  font-size: 18px;
+  font-family: noto sans, sans-serif;
+  font-weight: bolder;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  color: #DCDCDC;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 0;
+}
+
+.selected {
+  color: #DCD;
+}
+/*GALLERY*/
+
+img {
+  max-width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+#gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  clear: both;
+  padding-top: 25px;
+}
+
+#gallery a {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+}
+
+.portfolio {
+  text-decoration: none;
+  font-size: 25px;
+  color: dimgrey;
+  text-align: center;
+
+
+}
+
+/*FOOTER*/
+
+footer {
+  clear: both;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer img {
+  width: 20px;
+  height: 20px;
+}
+
+.copyright {
+  font-size: 20px;
+}
+
+/*ABOUT*/
+
+.myphoto {
+  border-radius: 80%;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 0 15px;
+  padding: 25px;
+
+}
+
+section h3 {
+  font-size: 2em;
+  text-decoration: underline;
+
+}
+
+p {
+  font-family: noto sans;
+  font-size: 1.5em;
+  margin: 15px 5px;
+  padding: 15px 5px;
+}
+
+
+/*CONTACT*/
+
+section a {
+  color: black;
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+section a:hover {
+  color: blue;
+}
